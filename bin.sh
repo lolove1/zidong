@@ -27,6 +27,7 @@ git clone https://github.com/binge8/luci-app-koolproxyR.git package/openwrt-pack
 git clone https://github.com/binge8/luci-app-koolddns.git package/openwrt-packages/luci-app-koolddns
 git clone https://github.com/tuanqing/install-program package/openwrt-packages/install-program
 svn co https://github.com/0saga0/OpenClash/trunk/luci-app-openclash package/openwrt-packages/luci-app-openclash
+git clone https://github.com/sirpdboy/sirpdboy-package/tree/main/luci-app-advanced package/openwrt-packages/luci-app-advanced
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
